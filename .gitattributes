@@ -1,0 +1,12 @@
+# 自动处理换行符  
+* text=auto  
+
+# 确保代码文件使用 LF  
+*.js text eol=lf  
+*.ts text eol=lf  
+*.css text eol=lf  
+*.html text eol=lf  
+
+# 允许 Windows 脚本使用 CRLF  
+*.bat text eol=crlf  
+*.ps1 text eol=crlf
