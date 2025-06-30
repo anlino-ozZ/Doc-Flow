@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
+//该文件用来支持 import Component from '@/components/UI/Button.vue' 这种简洁写法
